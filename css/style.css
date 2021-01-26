@@ -1,0 +1,81 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* Окончание обнуления */
+
+
+body {
+	background-color: rgb(184, 199, 199);
+}
+header {
+	font-size: 60px;
+	font-weight: bold;    
+}
+span {
+	font-weight: bold;
+}
+h2 {
+	font-size: 40px;
+	font-weight: bold; 
+	color: rgb(116, 11, 42);
+}
+.red {
+	color: red;
+}
+.oreng {
+	color: orange;
+}
+.yellov {
+	color: yellow;
+}
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+.indigo {
+	color: indigo;
+}
+.purple {
+	color: purple;
+}
+ ol {
+	 color: rgb(11, 128, 0);
+ }
+ footer {
+	font-size: 55px;
+	font-weight: bold; 
+ }
+ 
+ .text-2 span {
+	 color: rgb(3, 88, 128);
+ }
+ .list span{
+	 color: rgb(211, 43, 155);
+ }
+ .text-2 {
+	 color: brown;
+ }
